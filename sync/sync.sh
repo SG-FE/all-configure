@@ -42,7 +42,7 @@ if [ -z "$syname" ]; then
   exit 1
 fi
 
-pid=/tmp/unicorn-${type}.pid
+pid=/tmp/unicorn-${type}.pid 
 
 # stop service
 if [ -f ${pid} ]; then
