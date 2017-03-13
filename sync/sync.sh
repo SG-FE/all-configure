@@ -35,6 +35,9 @@ case "$type" in
   restful)
     syname="servicehuohuo"
     ;;
+	mwangwebapp)
+		syname="mwangwebapphuohuo"
+		;;
 esac
 
 if [ -z "$syname" ]; then
