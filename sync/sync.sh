@@ -26,18 +26,18 @@ case "$type" in
   sxyweb)
     syname="sxywebhuohuo"
     ;;
-  sxywebapp)
-    syname="sxywebappdevelop"
-    ;;
   askwebcms)
     syname="askcmsdevelop"
     ;;
   restful)
     syname="servicehuohuo"
     ;;
-	mwangwebapp)
-		syname="mwangwebapphuohuo"
-		;;
+  mwangwebapp)
+    syname="mwangwebapphuohuo"
+    ;;
+  mwangweb)
+    syname="mwangwebhuohuo"
+    ;;
 esac
 
 if [ -z "$syname" ]; then
@@ -45,7 +45,7 @@ if [ -z "$syname" ]; then
   exit 1
 fi
 
-pid=/tmp/unicorn-${type}.pid 
+pid=/tmp/unicorn-${type}.pid
 
 # stop service
 if [ -f ${pid} ]; then
