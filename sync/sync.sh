@@ -38,6 +38,12 @@ case "$type" in
   mwangweb)
     syname="mwangwebhuohuo"
     ;;
+  mwangcms)
+    syname="mwangcmshuohuo"
+    ;;
+  sxycms)
+    syname="sxycmshuohuo"
+    ;;
 esac
 
 if [ -z "$syname" ]; then
