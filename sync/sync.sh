@@ -53,6 +53,9 @@ case "$type" in
   ucapp)
     syname="ucapphuohuo"
     ;;
+  uccms)
+    syname="uccmshuohuo"
+    ;;
 esac
 
 if [ -z "$syname" ]; then
