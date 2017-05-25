@@ -2,11 +2,11 @@
 
 #配置文件
 
-#sellerask.test 112.74.22.42
+#112.74.87.144  sellerask的测试环境
 
-#sellerask.preview 120.25.71.48
+#120.24.52.218  sellerask的上线预览环境
 
-#sellerask.web.01 120.24.46.239
+#120.24.57.166  sellerask的正式环境
 
 #商学院测试环境 112.74.19.224 huohuo.17dsxy.com
 
