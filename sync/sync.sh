@@ -56,6 +56,9 @@ case "$type" in
   uccms)
     syname="uccmshuohuo"
     ;;
+  scwebapp)
+    syname="scwebapphuohuo"
+    ;;
 esac
 
 if [ -z "$syname" ]; then
