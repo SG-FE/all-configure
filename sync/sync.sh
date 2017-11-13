@@ -77,7 +77,9 @@ fi
 echo "removing files"
 rm -rf ./${type}/server
 
-rsync -avzP --delete --exclude="logs/*"  --password-file=/etc/rsync.pas work@120.25.103.109::${syname} ./${type}
+#rsync -avzP --delete --exclude="logs/*"  --password-file=/etc/rsync.pas work@120.25.103.109::${syname} ./${type}
+
+rsync -avzP --delete --exclude="logs/*"  --password-file=/etc/rsync.pas work@119.23.136.199::${syname} ./${type}
 
 if [ $? != 0 ]; then
   echo "updating code failed"
