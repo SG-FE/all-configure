@@ -7,6 +7,10 @@
   //sellerask.preview 120.25.71.48
   //sellerask.web.01 120.24.46.239
 ```
+```
+	//当前jenkins机器：
+	119.23.136.199 
+```
 
 #112.74.87.144  sellerask的测试环境
 
