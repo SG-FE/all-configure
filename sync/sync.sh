@@ -57,7 +57,7 @@ case "$type" in
     syname="uccmshuohuo"
     ;;
   scwebapp)
-    syname="scwebapphuohuo"
+    syname="sellercenter-webapp-huohuo"
     ;;
 esac
 
